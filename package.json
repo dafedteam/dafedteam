@@ -1,6 +1,7 @@
 {
   "name": "dafedteam",
   "version": "1.0.0",
+  "description": "DAFED team",
   "private": true,
   "scripts": {
     "dev": "nuxt",
