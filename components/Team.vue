@@ -11,7 +11,9 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="member">
-            <img src="assets/img/team/ally.png" alt="">
+            <nuxt-link to="ally">
+              <img src="assets/img/team/ally.png" alt="">
+            </nuxt-link>
             <h4>ally</h4>
             <span>Chief Meme Officer</span>
             <p>

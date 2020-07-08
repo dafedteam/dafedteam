@@ -7,7 +7,7 @@
           <h2>We are team of idiots who like to think they can code</h2>
           <div class="d-flex">
             <a href="#team" class="btn-get-started scrollto">About Us</a>
-            <a href="https://www.youtube.com/watch?v=NaqS8Y2cfbs" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true">
+            <a target="_blank" href="https://www.youtube.com/watch?v=NaqS8Y2cfbs" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true">
               Watch Video <i class="icofont-play-alt-2"></i>
             </a>
           </div>
