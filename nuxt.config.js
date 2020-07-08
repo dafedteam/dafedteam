@@ -36,6 +36,35 @@ export default {
         type: 'image/x-icon',
         href: '/favicon.ico'
       }
+    ],
+    script: [
+      {
+        src: 'assets/vendor/jquery/jquery.min.js'
+      },
+      {
+        src: 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js'
+      },
+      {
+        src: 'assets/vendor/jquery.easing/jquery.easing.min.js'
+      },
+      {
+        src: 'assets/vendor/waypoints/jquery.waypoints.min.js'
+      },
+      {
+        src: 'assets/vendor/counterup/counterup.min.js'
+      },
+      {
+        src: 'assets/vendor/isotope-layout/isotope.pkgd.min.js'
+      },
+      {
+        src: 'assets/vendor/venobox/venobox.min.js'
+      },
+      {
+        src: 'assets/vendor/owl.carousel/owl.carousel.min.js'
+      },
+      {
+        src: 'assets/js/main.js'
+      },
     ]
   },
   /*
@@ -78,16 +107,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    //
   },
-  script: [
-    '~/static/assets/vendor/jquery/jquery.min.js',
-    '~/static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-    '~/static/assets/vendor/jquery.easing/jquery.easing.min.js',
-    '~/static/assets/vendor/waypoints/jquery.waypoints.min.js',
-    '~/static/assets/vendor/counterup/counterup.min.js',
-    '~/static/assets/vendor/isotope-layout/isotope.pkgd.min.js',
-    '~/static/assets/vendor/venobox/venobox.min.js',
-    '~/static/assets/vendor/owl.carousel/owl.carousel.min.js',
-    '~/static/assets/js/main.js',
-  ]
 }

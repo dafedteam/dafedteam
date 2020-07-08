@@ -3,7 +3,7 @@
     <div class="container">
 
       <div class="section-title">
-        <span>Teamaaaaaaa</span>
+        <span>Team</span>
         <h2>Team</h2>
         <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
       </div>

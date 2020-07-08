@@ -7,18 +7,25 @@
 !(function($) {
   "use strict";
 
+  console.log('this is the app shit thing where smooth scroll is');
+
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 16;
+
   if (window.matchMedia("(max-width: 991px)").matches) {
     scrolltoOffset += 16;
   }
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
+    console.log('click!!!!!!!11111');
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       e.preventDefault();
       var target = $(this.hash);
-      if (target.length) {
 
+      if (target.length) {
+        // need to do this here for some reason
+        var scrolltoOffset = $('#header').outerHeight() - 16;
         var scrollto = target.offset().top - scrolltoOffset;
+        console.log(scrollto);
 
         if ($(this).attr("href") == '#header') {
           scrollto = 0;
@@ -26,7 +33,7 @@
 
         $('html, body').animate({
           scrollTop: scrollto
-        }, 1500, 'easeInOutExpo');
+        }, 500, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu, .mobile-nav').length) {
           $('.nav-menu .active, .mobile-nav .active').removeClass('active');
@@ -48,10 +55,11 @@
     if (window.location.hash) {
       var initial_nav = window.location.hash;
       if ($(initial_nav).length) {
+        var scrolltoOffset = $('#header').outerHeight() - 16;
         var scrollto = $(initial_nav).offset().top - scrolltoOffset;
         $('html, body').animate({
           scrollTop: scrollto
-        }, 1500, 'easeInOutExpo');
+        }, 500, 'easeInOutExpo');
       }
     }
   });
