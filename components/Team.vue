@@ -15,7 +15,7 @@
               <img src="assets/img/team/ally.png" alt="">
             </nuxt-link>
             <h4>ally</h4>
-            <span>Chief Meme Officer</span>
+            <span><img src="assets/img/team/smart-pepe.png" alt=""> Chief Meme Officer</span>
             <p>
               Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
             </p>
@@ -86,7 +86,7 @@
           <div class="member">
             <img src="assets/img/team/soki.png" alt="">
             <h4>soki</h4>
-            <span>quiet</span>
+            <span>Wow, bonjour!</span>
             <p>
               Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
             </p>
