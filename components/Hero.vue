@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
-          <img src="assets/img/team/agog-high.png" class="img-fluid animated" alt="">
+          <img src="assets/img/dafedteam.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
